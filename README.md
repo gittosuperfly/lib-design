@@ -51,11 +51,9 @@ class App : Application() {
 ```kotlin
 fun testBtnClick(){
     button.setOnClickListener {
-        findViewById<TextView>(R.id.helloTv).apply {
-            //生成一个粉色、带圆角的Drawable
-            background = Design.rectDrawable(Color.parseColor("#ff4090"), 20f).build()
-            //更多用法详见API
-        }
+        //生成一个粉色、带圆角的Drawable
+        background = Design.rectDrawable(Color.parseColor("#ff4090"), 20f).build()
+        //Tips:更多用法详见API
     }
 }
 ```
