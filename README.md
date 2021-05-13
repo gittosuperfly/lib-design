@@ -46,7 +46,7 @@ class App : Application() {
 }
 ```
 
-**Step 2**. 在代码中弹出Toast
+**Step 2**. 在代码中使用
 
 ```kotlin
 fun testBtnClick(){
